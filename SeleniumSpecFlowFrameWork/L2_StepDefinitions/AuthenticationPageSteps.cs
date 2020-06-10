@@ -11,7 +11,6 @@ namespace SeleniumSpecFlowFrameWork.L2_StepDefinitions
     class AuthenticationPageSteps
     {
         ShareStateObjects sso;
-
         public AuthenticationPageSteps(ShareStateObjects _sso)
         {
             sso = _sso;

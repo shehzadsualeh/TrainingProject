@@ -1,3 +1,0 @@
-﻿app.firstname = Faizan
-app.lastname = shaikh
-app.password = password

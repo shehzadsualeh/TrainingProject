@@ -24,5 +24,11 @@ namespace SeleniumSpecFlowFrameWork.Utilities
             return result;
         }
 
+        public static string GetRandomNumber(int min, int max)
+        {
+            Random random = new Random();
+            return random.Next(min, max).ToString();
+        }
+
     }
 }
