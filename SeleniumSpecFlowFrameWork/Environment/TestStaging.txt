@@ -1,0 +1,7 @@
+﻿baseurl = http://automationpractice.com
+app.username = faizan125@hotmail.com
+app.password = Test1234
+default_time = 20
+app.invalidusername = abcd@gmail.com
+app.invalidpassword = password
+app.invalidcredentialserrormessage = Authentication failed
