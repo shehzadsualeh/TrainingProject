@@ -78,6 +78,7 @@ namespace SeleniumSpecFlowFrameWork.L1_Features
         [NUnit.Framework.DescriptionAttribute("Search a Product")]
         [NUnit.Framework.CategoryAttribute("search")]
         [NUnit.Framework.TestCaseAttribute("Printed Summer Dress", null)]
+        [NUnit.Framework.TestCaseAttribute("Polka Dress", null)]
         public virtual void SearchAProduct(string product, string[] exampleTags)
         {
             string[] @__tags = new string[] {
