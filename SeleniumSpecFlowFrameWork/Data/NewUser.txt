@@ -1,0 +1,5 @@
+﻿newemail = faizan
+newdomain = @gmail.com
+fname = Shehzad
+lname = Ali
+city = Bradford

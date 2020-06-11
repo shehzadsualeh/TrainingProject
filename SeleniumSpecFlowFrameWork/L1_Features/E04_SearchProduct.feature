@@ -11,3 +11,4 @@ Scenario Outline: Search a Product
 	Examples: 
 	| product              |
 	| Printed Summer Dress |
+	| Polka Dress          |
