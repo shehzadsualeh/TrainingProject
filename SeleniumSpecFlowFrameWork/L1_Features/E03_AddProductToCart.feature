@@ -6,7 +6,7 @@
 
 @addtocart @cart
 Scenario Outline: Add Product To Cart
-	Given The user navigates to the home page
+	Given The user navigates to home page
 	And The user adds <item> from the popular section 
 	And The user continues the shopping 
 	When The user navigates to the shopping cart summary page 

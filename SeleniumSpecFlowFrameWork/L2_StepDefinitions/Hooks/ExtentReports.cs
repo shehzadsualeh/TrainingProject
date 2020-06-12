@@ -31,7 +31,7 @@ namespace SeleniumSpecFlowFrameWork.L2_StepDefinitions.Hooks
         public static void StartReporting()
         {
             string dir = DateTime.Now.ToString("ddMMyyyy_HHmmss");
-            string reportdir = @"C:\Users\faiza\Documents/" + dir;
+            string reportdir = @"C:\Users\ShehzadAli/" + dir;
             Directory.CreateDirectory(reportdir);
 
             // create ExtentReports and attach reporter(s)
