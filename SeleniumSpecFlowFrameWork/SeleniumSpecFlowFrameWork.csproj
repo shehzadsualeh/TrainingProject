@@ -173,6 +173,7 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="Global\ShareStateObjects.cs" />
+    <Compile Include="L2_StepDefinitions\AddProducttoCartSteps.cs" />
     <Compile Include="L2_StepDefinitions\AuthenticationPageSteps.cs" />
     <Compile Include="L2_StepDefinitions\CommonPageSteps.cs" />
     <Compile Include="L2_StepDefinitions\CreateAnAccountPageSteps.cs" />
@@ -181,12 +182,16 @@
     <Compile Include="L2_StepDefinitions\Hooks\ExtentReports.cs" />
     <Compile Include="L2_StepDefinitions\Hooks\UserData.cs" />
     <Compile Include="L2_StepDefinitions\MyAccountPageSteps.cs" />
+    <Compile Include="L2_StepDefinitions\PlaceanOrderSteps.cs" />
     <Compile Include="L2_StepDefinitions\RegisterNewUserSteps.cs" />
     <Compile Include="L2_StepDefinitions\SearchPageSteps.cs" />
+    <Compile Include="L3_SeleniumCode\AddProducttoCartPage.cs" />
     <Compile Include="L3_SeleniumCode\AuthenticationPage.cs" />
     <Compile Include="L3_SeleniumCode\CommonPage.cs" />
     <Compile Include="L3_SeleniumCode\CreateAnAccountPage.cs" />
+    <Compile Include="L3_SeleniumCode\HomePage.cs" />
     <Compile Include="L3_SeleniumCode\MyAccountPage.cs" />
+    <Compile Include="L3_SeleniumCode\PlaceanOrderPage.cs" />
     <Compile Include="L3_SeleniumCode\RegisterNewUserPage.cs" />
     <Compile Include="L3_SeleniumCode\SearchPage.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />

@@ -4,12 +4,14 @@
 	I want to be told the sum of two numbers
 
 Background: 
-Given The user logins into the website
+	Given I navigate to the authentication page
+	When I provide valid credentials and submit
+	Then I should be on my accounts page
 
 
 @order @placeorder
 Scenario: Place an Order
-	Given The user navigates to the home page
+	Given The user navigates to home page
 	And The user adds the following to the cart
 	| item                        | quantity |
 	| Blouse                      | 3        |

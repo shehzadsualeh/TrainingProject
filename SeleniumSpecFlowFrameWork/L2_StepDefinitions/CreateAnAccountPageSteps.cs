@@ -25,9 +25,9 @@ namespace SeleniumSpecFlowFrameWork.L2_StepDefinitions
         public void WhenTheUserProvidesTheRequiredInformationAndSubmitsForRegistration()
         {
             // sso.driver.Manage().Timeouts().ImplicitWait = TimeSpan.FromSeconds(20);
-            string firstName = UserData.UserDataInfo["app.firstname"];
-            string lastName = UserData.UserDataInfo["app.lastname"];
-            string password = UserData.UserDataInfo["app.password"];
+            string firstName = UserData.UserDataInfo["fname"];
+            string lastName = UserData.UserDataInfo["lname"];
+            string password = UserData.UserDataInfo["password"];
             CreateAnAccountPage createAnAccountPage = new CreateAnAccountPage(sso);
             createAnAccountPage.CreateNewUserInfo(firstName, lastName, password);
 
